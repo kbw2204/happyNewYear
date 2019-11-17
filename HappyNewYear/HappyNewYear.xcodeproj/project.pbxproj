@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA80737238136900050527B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA80736238136900050527B /* AppDelegate.swift */; };
+		CCA80739238136900050527B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA80738238136900050527B /* SceneDelegate.swift */; };
+		CCA8073B238136900050527B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8073A238136900050527B /* ViewController.swift */; };
+		CCA8073E238136900050527B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA8073C238136900050527B /* Main.storyboard */; };
+		CCA80740238136920050527B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA8073F238136920050527B /* Assets.xcassets */; };
+		CCA80743238136920050527B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA80741238136920050527B /* LaunchScreen.storyboard */; };
+		CCA8074E238136920050527B /* HappyNewYearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8074D238136920050527B /* HappyNewYearTests.swift */; };
+		CCA8076523814A3D0050527B /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = CCA8075F23814A3D0050527B /* jquery.js */; };
+		CCA8076623814A3D0050527B /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = CCA8076023814A3D0050527B /* default.css */; };
+		CCA8076723814A3D0050527B /* digital-7_mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCA8076123814A3D0050527B /* digital-7_mono.ttf */; };
+		CCA8076823814A3D0050527B /* garden.js in Resources */ = {isa = PBXBuildFile; fileRef = CCA8076223814A3D0050527B /* garden.js */; };
+		CCA8076923814A3D0050527B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CCA8076323814A3D0050527B /* index.html */; };
+		CCA8076A23814A3D0050527B /* functions.js in Resources */ = {isa = PBXBuildFile; fileRef = CCA8076423814A3D0050527B /* functions.js */; };
+		CCA8076C23814B120050527B /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8076B23814B120050527B /* UIImage+Gif.swift */; };
+		CCA8076E23814D5B0050527B /* playbbx.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCA8076D23814D5B0050527B /* playbbx.gif */; };
+		CCA8077023814F6D0050527B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8076F23814F6D0050527B /* StartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA8074A238136920050527B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA8072B238136900050527B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA80732238136900050527B;
+			remoteInfo = HappyNewYear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCA80733238136900050527B /* HappyNewYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyNewYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA80736238136900050527B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCA80738238136900050527B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCA8073A238136900050527B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCA8073D238136900050527B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA8073F238136920050527B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA80742238136920050527B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA80744238136920050527B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA80749238136920050527B /* HappyNewYearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyNewYearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA8074D238136920050527B /* HappyNewYearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearTests.swift; sourceTree = "<group>"; };
+		CCA8074F238136920050527B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA8075F23814A3D0050527B /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		CCA8076023814A3D0050527B /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		CCA8076123814A3D0050527B /* digital-7_mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7_mono.ttf"; sourceTree = "<group>"; };
+		CCA8076223814A3D0050527B /* garden.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = garden.js; sourceTree = "<group>"; };
+		CCA8076323814A3D0050527B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		CCA8076423814A3D0050527B /* functions.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = functions.js; sourceTree = "<group>"; };
+		CCA8076B23814B120050527B /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		CCA8076D23814D5B0050527B /* playbbx.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = playbbx.gif; sourceTree = "<group>"; };
+		CCA8076F23814F6D0050527B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA80730238136900050527B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA80746238136920050527B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA8072A238136900050527B = {
+			isa = PBXGroup;
+			children = (
+				CCA80735238136900050527B /* HappyNewYear */,
+				CCA8074C238136920050527B /* HappyNewYearTests */,
+				CCA80734238136900050527B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA80734238136900050527B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80733238136900050527B /* HappyNewYear.app */,
+				CCA80749238136920050527B /* HappyNewYearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA80735238136900050527B /* HappyNewYear */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8075B238136990050527B /* Controller */,
+				CCA8075A238136980050527B /* View */,
+				CCA80759238136970050527B /* Model */,
+				CCA80758238136960050527B /* Supporting Files */,
+			);
+			path = HappyNewYear;
+			sourceTree = "<group>";
+		};
+		CCA8074C238136920050527B /* HappyNewYearTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8074D238136920050527B /* HappyNewYearTests.swift */,
+				CCA8074F238136920050527B /* Info.plist */,
+			);
+			path = HappyNewYearTests;
+			sourceTree = "<group>";
+		};
+		CCA80758238136960050527B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8076D23814D5B0050527B /* playbbx.gif */,
+				CCA8076B23814B120050527B /* UIImage+Gif.swift */,
+				CCA8075E23814A1E0050527B /* Web */,
+				CCA80741238136920050527B /* LaunchScreen.storyboard */,
+				CCA80744238136920050527B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA80759238136970050527B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCA8075A238136980050527B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8073C238136900050527B /* Main.storyboard */,
+				CCA8073F238136920050527B /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCA8075B238136990050527B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80736238136900050527B /* AppDelegate.swift */,
+				CCA80738238136900050527B /* SceneDelegate.swift */,
+				CCA8073A238136900050527B /* ViewController.swift */,
+				CCA8076F23814F6D0050527B /* StartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCA8075E23814A1E0050527B /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				CCA8076023814A3D0050527B /* default.css */,
+				CCA8076123814A3D0050527B /* digital-7_mono.ttf */,
+				CCA8076423814A3D0050527B /* functions.js */,
+				CCA8076223814A3D0050527B /* garden.js */,
+				CCA8076323814A3D0050527B /* index.html */,
+				CCA8075F23814A3D0050527B /* jquery.js */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA80732238136900050527B /* HappyNewYear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA80752238136920050527B /* Build configuration list for PBXNativeTarget "HappyNewYear" */;
+			buildPhases = (
+				CCA8072F238136900050527B /* Sources */,
+				CCA80730238136900050527B /* Frameworks */,
+				CCA80731238136900050527B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyNewYear;
+			productName = HappyNewYear;
+			productReference = CCA80733238136900050527B /* HappyNewYear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA80748238136920050527B /* HappyNewYearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA80755238136920050527B /* Build configuration list for PBXNativeTarget "HappyNewYearTests" */;
+			buildPhases = (
+				CCA80745238136920050527B /* Sources */,
+				CCA80746238136920050527B /* Frameworks */,
+				CCA80747238136920050527B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA8074B238136920050527B /* PBXTargetDependency */,
+			);
+			name = HappyNewYearTests;
+			productName = HappyNewYearTests;
+			productReference = CCA80749238136920050527B /* HappyNewYearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA8072B238136900050527B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "강병우";
+				TargetAttributes = {
+					CCA80732238136900050527B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					CCA80748238136920050527B = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CCA80732238136900050527B;
+					};
+				};
+			};
+			buildConfigurationList = CCA8072E238136900050527B /* Build configuration list for PBXProject "HappyNewYear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA8072A238136900050527B;
+			productRefGroup = CCA80734238136900050527B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA80732238136900050527B /* HappyNewYear */,
+				CCA80748238136920050527B /* HappyNewYearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA80731238136900050527B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8076523814A3D0050527B /* jquery.js in Resources */,
+				CCA80743238136920050527B /* LaunchScreen.storyboard in Resources */,
+				CCA80740238136920050527B /* Assets.xcassets in Resources */,
+				CCA8076E23814D5B0050527B /* playbbx.gif in Resources */,
+				CCA8073E238136900050527B /* Main.storyboard in Resources */,
+				CCA8076823814A3D0050527B /* garden.js in Resources */,
+				CCA8076923814A3D0050527B /* index.html in Resources */,
+				CCA8076723814A3D0050527B /* digital-7_mono.ttf in Resources */,
+				CCA8076A23814A3D0050527B /* functions.js in Resources */,
+				CCA8076623814A3D0050527B /* default.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA80747238136920050527B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA8072F238136900050527B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8077023814F6D0050527B /* StartViewController.swift in Sources */,
+				CCA8073B238136900050527B /* ViewController.swift in Sources */,
+				CCA80737238136900050527B /* AppDelegate.swift in Sources */,
+				CCA8076C23814B120050527B /* UIImage+Gif.swift in Sources */,
+				CCA80739238136900050527B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA80745238136920050527B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8074E238136920050527B /* HappyNewYearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA8074B238136920050527B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA80732238136900050527B /* HappyNewYear */;
+			targetProxy = CCA8074A238136920050527B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA8073C238136900050527B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA8073D238136900050527B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA80741238136920050527B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA80742238136920050527B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA80750238136920050527B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCA80751238136920050527B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA80753238136920050527B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5K2X34XNP;
+				INFOPLIST_FILE = "HappyNewYear/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kbw.HappyNewYear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CCA80754238136920050527B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5K2X34XNP;
+				INFOPLIST_FILE = "HappyNewYear/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kbw.HappyNewYear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CCA80756238136920050527B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5K2X34XNP;
+				INFOPLIST_FILE = HappyNewYearTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kbw.HappyNewYearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyNewYear.app/HappyNewYear";
+			};
+			name = Debug;
+		};
+		CCA80757238136920050527B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5K2X34XNP;
+				INFOPLIST_FILE = HappyNewYearTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kbw.HappyNewYearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyNewYear.app/HappyNewYear";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA8072E238136900050527B /* Build configuration list for PBXProject "HappyNewYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA80750238136920050527B /* Debug */,
+				CCA80751238136920050527B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA80752238136920050527B /* Build configuration list for PBXNativeTarget "HappyNewYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA80753238136920050527B /* Debug */,
+				CCA80754238136920050527B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA80755238136920050527B /* Build configuration list for PBXNativeTarget "HappyNewYearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA80756238136920050527B /* Debug */,
+				CCA80757238136920050527B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA8072B238136900050527B /* Project object */;
+}
